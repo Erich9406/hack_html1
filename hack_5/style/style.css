@@ -1,0 +1,137 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Previene el desplazamiento horizontal */
+    height: 100%; /* Asegura que el body tenga al menos la altura de la ventana */
+}
+
+body {
+    background-image: url('../img/2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Opcional, para un efecto de fondo fijo */
+}
+header {
+    display: flex;
+    align-items: center;
+    padding-left: 10px; /* Ajusta según necesidad */
+}
+
+.status-container {
+    display: flex;
+    justify-content: space-between; /* Alinea los elementos a los extremos */
+    align-items: center; /* Alinea los elementos verticalmente */
+    background-color: white; /* Fondo blanco */
+    padding: 20px; /* Espaciado interno */
+}
+.left-content {
+    display: flex;
+    align-items: center;
+}
+.status-dot {
+    height: 30px; /* Tamaño del punto */
+    width: 30px; /* Tamaño del punto */
+    background-color: #90EE90; /* Color verde */
+    border-radius: 50%; /* Hace el punto circular */
+    display: inline-block;
+    margin-right: 5px; /* Espacio entre el punto y el texto */
+}
+
+.status-text {
+    font-size: 24px; /* Ajusta este valor según necesites */
+    margin: 0; /* Elimina el margen por defecto de los párrafos si es necesario */
+}
+.global-solutions {
+    /* Estilos para 'Soluciones Mundiales' */
+    font-size: 24px; /* Ajusta este valor según necesites */
+    margin: 0; /* Elimina el margen por defecto de los párrafos si es necesario */
+}
+
+
+.creative-solutions-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: white; /* Fondo para hacer el texto visible */
+    text-align: left;
+    padding: 20px 100px; /* Añade algo de espacio alrededor del texto */
+    font-size: 24px; /* Ajusta el tamaño del texto según necesites */
+
+}
+.images-container {
+    display: flex; /* Activa Flexbox */
+    justify-content: center; /* Centra las imágenes horizontalmente en el contenedor */
+    align-items: center; /* Alinea las imágenes verticalmente en el centro */
+    gap: 50px; /* Espacio entre las imágenes */
+}
+
+.images-container img {
+    max-width: 130px; /* Ajusta el ancho máximo de las imágenes */
+    height: auto; /* Mantiene la proporción de las imágenes */
+    /* La propiedad 'margin: 0 auto;' y 'display: block;' ya no son necesarias aquí */
+}
+.image-item {
+    text-align: center; /* Centra el texto debajo de las imágenes */
+}
+.image-item img {
+    max-width: 100px; /* Ajusta el ancho máximo de las imágenes */
+    height: auto; /* Mantiene la proporción de las imágenes */
+}
+
+.background-container {
+    position: relative; /* Establece como contenedor relativo para posicionar las franjas */
+    background-image: url('ruta-a-tu-imagen-de-fondo.jpg'); /* Fondo del contenedor */
+    background-size: cover; /* Asegura que el fondo cubra todo el contenedor */
+    background-position: center; /* Centra el fondo */
+}
+
+.green-stripe {
+    background-color: #90EE90; /* Color de fondo de las franjas */
+    color: white; /* Color del texto */
+    margin: 10px 0; /* Espacio arriba y abajo de cada franja */
+    margin-right: 850px;
+    margin-left: 10px;
+    padding: 10px; /* Espacio dentro de cada franja */
+    text-align: center; /* Centra el texto dentro de las franjas */
+}
+
+.green-stripe2 {
+    background-color: #90EE90; /* Color de fondo de las franjas */
+    color: white; /* Color del texto */
+    margin: 10px 0; /* Espacio arriba y abajo de cada franja */
+    margin-right: 850px;
+    margin-left: 20px;
+    padding: 10px; /* Espacio dentro de cada franja */
+    text-align: center; /* Centra el texto dentro de las franjas */
+}
+
+.black-stripe {
+    background-color: black; /* Color de fondo de las franjas */
+    color: white; /* Color del texto */
+    margin: 10px 0; /* Espacio arriba y abajo de cada franja */
+    margin-right: 880px;
+    margin-left: 20px;
+    padding: 10px; /* Espacio dentro de cada franja */
+    text-align: center;
+}
+
+.black-stripe2 {
+    background-color: black; /* Color de fondo de las franjas */
+    color: white; /* Color del texto */
+    margin: 10px 0; /* Espacio arriba y abajo de cada franja */
+    margin-right: 1000px;
+    margin-left: 40px;
+    padding: 10px; /* Espacio dentro de cada franja */
+    text-align: center; /* Centra el texto dentro de las franjas */
+}
+.footer {
+    background-color: #90EE90;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
