@@ -1,0 +1,91 @@
+:root {
+    --hg-blue: #93B5C9;
+    --hg-wine: #AB2849;
+}
+.top {
+    height: 80px;
+    width: 100%;
+    background-color: var(--hg-blue);
+    margin-top: 0;
+    margin-left: 0;
+    z-index: 1000;
+}
+
+.wine {
+    height: 160px;
+    width: 100%;
+    background-color: var(--hg-wine);
+    margin-top: 0; 
+    margin-left: 0;
+    z-index: 999;
+}
+.wine-3, .wine-5 {
+    height: 80px;
+    width: calc(100% - 200px);
+    background-color: var(--hg-wine);
+    margin-right: 100px; 
+    margin-left: 100px; 
+    z-index: 999;
+}
+
+.wine-2 {
+    margin-top: 10px;
+    height: 80px;
+    width: calc(100% - 200px);
+    background-color: var(--hg-wine);
+    margin-right: 100px; 
+    margin-left: 100px; 
+    z-index: 999;
+}
+
+.wine-3 {
+    display: flex; 
+    justify-content: space-between; 
+    margin-top: 10px;
+    gap: 3px;
+    height: 80px;
+    width: calc(100% - 200px); 
+    background-color: transparent; 
+}
+
+.wine-3 > div {
+    flex-grow: 1; 
+    background-color: var(--hg-wine);
+    height: 100%; 
+}
+
+.wine-4 {
+    margin-top: 10px;
+    height: 80px;
+    width: calc(100% - 200px);
+    background-color: var(--hg-wine);
+    margin-right: 100px; 
+    margin-left: 100px; 
+    z-index: 999;
+}
+
+.wine-5 {
+    display: flex; 
+    justify-content: space-between; 
+    gap: 3px; 
+    margin-top: 10px;
+    height: 80px;
+    width: calc(100% - 200px); 
+    background-color: transparent; 
+}
+
+.wine-5 > div {
+    flex-grow: 1; 
+    background-color: var(--hg-wine); 
+    height: 100%; 
+}
+
+.wine-6 {
+    height: 80px;
+    width: 100%; 
+    background-color: var(--hg-wine);
+    margin-top: 10px; 
+    margin-right: 0; 
+    margin-left: 0; 
+    z-index: 999;
+}
