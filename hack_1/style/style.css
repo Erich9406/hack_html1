@@ -1,0 +1,73 @@
+:root {
+ --hg-blue: #93B5C9;
+ --hg-wine: #AB2849;
+}
+.top{
+    height: 80px;
+    width: 100%;
+    background-color: var(--hg-blue); 
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.wine {
+    height: 160px;
+    width: 100%;
+    background-color: var(--hg-wine); 
+    position: fixed;
+    top: 80px; 
+    left: 0;
+    z-index: 999; 
+}
+
+.wine-2 {
+    top: 250px;
+    height: 80px; 
+    width: calc(100% - 100px); 
+    background-color: var(--hg-wine); 
+    position: fixed;
+    left: 100px; 
+    z-index: 999; 
+}
+
+.wine-3 {
+    top: 340px;
+    height: 80px; 
+    width: calc(100% - 100px); 
+    background-color: var(--hg-wine); 
+    position: fixed;
+    left: 100px; 
+    z-index: 999; 
+}
+
+.wine-4 {
+    top: 430px;
+    height: 80px; 
+    width: calc(100% - 100px); 
+    background-color: var(--hg-wine); 
+    position: fixed;
+    left: 100px; 
+    z-index: 999; 
+}
+
+.wine-5 {
+    height: 80px; 
+    width: calc(100% - 100px); 
+    background-color: var(--hg-wine); 
+    position: fixed;
+    left: 100px; 
+    z-index: 999; 
+    top: 520px; 
+}
+.wine-6 {
+    top: 610px; 
+    height: 80px; 
+    width: calc(100% - 80px); 
+    background-color: var(--hg-wine); 
+    position: fixed;
+    left: 40px; 
+    right: 40px; 
+    z-index: 999;
+}

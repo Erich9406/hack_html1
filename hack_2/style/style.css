@@ -1,0 +1,66 @@
+:root {
+    --hg-blue: #93B5C9;
+    --hg-wine: #AB2849;
+}
+.top {
+    height: 80px;
+    width: 100%;
+    background-color: var(--hg-blue);
+    margin-top: 0;
+    margin-left: 0;
+    z-index: 1000;
+}
+
+.wine {
+    width: 100%;
+    height: 160px;
+    background-color: var(--hg-wine);
+    margin-top: 0; 
+    margin-left: 0;
+    z-index: 999;
+}
+
+.wine-2 {
+    margin-top: 10px; 
+    width: calc(100% - 100px);
+    height: 80px;
+    background-color: var(--hg-wine);
+    margin-right: 100px; 
+    z-index: 999;
+}
+
+.wine-3 {
+    margin-top: 10px;
+    width: calc(100% - 100px);
+    height: 80px;
+    background-color: var(--hg-wine);
+    margin-right: 100px; 
+    z-index: 999; 
+}
+
+.wine-4 {
+    margin-top: 10px; 
+    width: calc(100% - 100px);
+    height: 80px;
+    background-color: var(--hg-wine);
+    margin-right: 100px; 
+    z-index: 999;
+}
+
+.wine-5 {
+    margin-top: 10px;
+    width: calc(100% - 100px);
+    height: 80px;
+    background-color: var(--hg-wine);
+    margin-right: 100px; 
+    z-index: 999;
+}
+.wine-6 {
+    height: 80px;
+    width: calc(100% - 80px);
+    background-color: var(--hg-wine);
+    margin-top: 10px; 
+    margin-right: 40px; 
+    margin-left: 40px; 
+    z-index: 999;
+}
